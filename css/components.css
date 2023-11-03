@@ -1,0 +1,59 @@
+.title{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.4; /* 56/40 */
+	color: #2C1500;
+}
+.title--big{
+	font-weight: 500;
+	font-size: 68px;
+	color: #156963;
+	line-height: 1.7; /* 68/40 */ ;
+}
+.title--medium{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.4; 
+	color: #2C1500;
+}
+.title--small{
+	font-family: "Work Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5; 
+	color: #333;
+}
+
+.button{
+	display: inline-block;
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.4; /* 20/14 */;
+	color: #FAFEFE;
+	background-color: #156963;
+	border: 1px solid #156963;
+	padding: 10px 20px;
+	text-transform: capitalize; 
+	transition: all 0.4s ease 0s;
+}
+.button:hover{
+	background-color: #06968c
+}
+.button--small{
+	font-weight: 500;
+	font-size: 8px;
+	line-height: 1.7; /* 14/8 */
+	text-transform: capitalize; 
+	padding: 4px 12px;
+	border-radius: 2px;
+}
+.button--white{
+	color: #156963;
+	background-color: #fff;
+	border: none;
+}
+.button--white:hover{
+	color:#fff;
+}
